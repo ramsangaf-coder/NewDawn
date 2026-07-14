@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="New Dawn is an educational and entrepreneurship platform."
+    />
+
+    <meta
+      name="keywords"
+      content="education, UPSC, entrepreneurship, learning"
+    />
+
+    <meta name="author" content="Ramsanga Fanai" />
+
+    <title>New Dawn</title>
+
+    <link rel="icon" href="img/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header id="navbar">
+      <div class="logo-area">
+        <img src="img/logo.png" alt="New Dawn" />
+
+        <span>NEW DAWN</span>
+      </div>
+
+      <nav>
+        <a href="https://ramsangaf-coder.github.io/Lalramsanga/" target="_blank"
+          >My website</a
+        >
+
+        <a href="#about">About</a>
+
+        <a href="#explore">Explore</a>
+
+        <a href="#timeline">Journey</a>
+
+        <a href="#register">Register</a>
+      </nav>
+
+      <button id="themeToggle" class="theme-btn">🌙</button>
+    </header>
+
+    <section class="hero">
+      <span class="hero-badge"> ✦ Founded 1 July 2025 </span>
+
+      <h1>
+        NEW<br />
+        DAWN
+      </h1>
+
+      <p id="typing"></p>
+
+      <div class="hero-buttons">
+        <button
+          onclick="
+            document
+              .getElementById('register')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          Register Now
+        </button>
+
+        <button
+          class="secondary-btn"
+          onclick="
+            document
+              .getElementById('explore')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          Explore
+        </button>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <h2>2025</h2>
+
+          <span>Founded</span>
+        </div>
+
+        <div>
+          <h2>3</h2>
+
+          <span>Instructors</span>
+        </div>
+
+        <div>
+          <h2>15+</h2>
+
+          <span>Students</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-card">
+        <div class="quote-left">
+          <div class="quote-icon">❝</div>
+
+          <div>
+            <h3 id="quoteText"></h3>
+
+            <p id="quoteAuthor"></p>
+          </div>
+        </div>
+
+        <div class="quote-date">
+          <h4>Today's Quote</h4>
+
+          <p id="todayDate"></p>
+        </div>
+      </div>
+    </section>
+    <!-- =========================
+Founder
+========================= -->
+
+    <section class="founder-section" id="about">
+      <div class="founder-card">
+        <div class="founder-image">
+          <img src="img/founder.jpeg" alt="Founder" />
+        </div>
+
+        <div class="founder-info">
+          <span class="badge">Founder</span>
+
+          <h2>Ramsanga Fanai</h2>
+
+          <h4>Founder & Visionary of New Dawn</h4>
+
+          <p>
+            New Dawn was founded on <strong>1 July 2025</strong> with a dream to
+            build a community where learning, entrepreneurship, innovation,
+            shopping, and advertising come together. What started with three
+            instructors and fifteen students continues to grow into a platform
+            where every learner discovers new opportunities.
+          </p>
+
+          <div class="founder-stats">
+            <div>
+              <h3>2025</h3>
+
+              <span>Founded</span>
+            </div>
+
+            <div>
+              <h3>3</h3>
+
+              <span>Instructors</span>
+            </div>
+
+            <div>
+              <h3>15</h3>
+
+              <span>First Students</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-title">
+        <h2>About New Dawn</h2>
+
+        <p>Beyond the Horizon Lies Our Next Chapter</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>📚 Learn</h3>
+
+          <p>
+            Access quality education, mentorship, and courses designed to help
+            every learner grow.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>🛍 Shop</h3>
+
+          <p>
+            Discover products, books, digital resources, and exclusive New Dawn
+            merchandise.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>📢 Advertise</h3>
+
+          <p>
+            Businesses and creators can promote their services through the New
+            Dawn community.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>🚀 Entrepreneur Hub</h3>
+
+          <p>
+            Helping young entrepreneurs connect, learn, and build successful
+            businesses together.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- =========================
+Explore
+========================= -->
+
+    <section class="explore" id="explore">
+      <h2>Explore New Dawn</h2>
+
+      <p>Education. Innovation. Business. Opportunity.</p>
+
+      <div class="explore-grid">
+        <div class="explore-card">
+          <div class="card-number">01</div>
+
+          <h3>Learning</h3>
+
+          <p>
+            Master UPSC, technology, languages, professional skills and lifelong
+            learning.
+          </p>
+
+          <button class="card-btn">Discover →</button>
+        </div>
+
+        <div class="explore-card">
+          <div class="card-number">02</div>
+
+          <h3>Entrepreneur Hub</h3>
+
+          <p>
+            Create businesses, build startups, connect with mentors, and launch
+            ideas.
+          </p>
+
+          <button class="card-btn">Discover →</button>
+        </div>
+
+        <div class="explore-card">
+          <div class="card-number">03</div>
+
+          <h3>Marketplace</h3>
+
+          <p>
+            Books, digital products, future merchandise, and educational
+            resources.
+          </p>
+
+          <button class="card-btn">Discover →</button>
+        </div>
+
+        <div class="explore-card">
+          <div class="card-number">04</div>
+
+          <h3>Advertising</h3>
+
+          <p>
+            Promote your brand, business, event, or services inside New Dawn.
+          </p>
+
+          <button class="card-btn">Discover →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+Timeline
+=========================== -->
+
+    <section class="timeline" id="timeline">
+      <h2>Our Journey</h2>
+
+      <p>Every great movement begins with one step.</p>
+
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>1 July 2025</h3>
+
+            <p>
+              New Dawn officially began with a vision to build a community where
+              education, innovation, entrepreneurship, shopping and advertising
+              unite.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>3 Passionate Instructors</h3>
+
+            <p>
+              Three instructors joined together to inspire, teach and guide the
+              very first learners.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>15 Pioneer Students</h3>
+
+            <p>
+              Fifteen students became the first members of the New Dawn family.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>The Future</h3>
+
+            <p>
+              Our next chapter includes online learning, entrepreneurship,
+              marketplace, AI, and a global community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===========================
+Mission
+=========================== -->
+
+    <section class="mission">
+      <div class="mission-content">
+        <p class="mission-small">OUR MISSION</p>
+
+        <h2>
+          Education.<br />
+          Innovation.<br />
+          Opportunity.
+        </h2>
+
+        <p class="mission-text">
+          At New Dawn, we believe every sunrise brings a new opportunity to
+          learn, create, inspire, and build a better future together.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===========================
+Meet the Team
+=========================== -->
+
+    <section class="team">
+      <div class="section-title">
+        <h2>Meet Our Team</h2>
+
+        <p>The people building New Dawn.</p>
+      </div>
+
+      <div class="team-grid">
+        <!-- Founder -->
+
+        <div class="team-card featured">
+          <img src="img/founder.jpeg" alt="Ramsanga Fanai" />
+
+          <span class="role">Founder</span>
+
+          <h3>Ramsanga Fanai</h3>
+
+          <p>
+            Visionary behind New Dawn, committed to building a community where
+            learning, entrepreneurship and innovation grow together.
+          </p>
+        </div>
+
+        <!-- Instructor 1 -->
+
+        <div class="team-card">
+          <div class="placeholder-avatar">👤</div>
+
+          <span class="role">Instructor</span>
+
+          <h3>Instructor 1</h3>
+
+          <p>Course information coming soon.</p>
+        </div>
+
+        <!-- Instructor 2 -->
+
+        <div class="team-card">
+          <div class="placeholder-avatar">👤</div>
+
+          <span class="role">Instructor</span>
+
+          <h3>Instructor 2</h3>
+
+          <p>Course information coming soon.</p>
+        </div>
+
+        <!-- Instructor 3 -->
+
+        <div class="team-card">
+          <div class="placeholder-avatar">👤</div>
+
+          <span class="role">Instructor</span>
+
+          <h3>Instructor 3</h3>
+
+          <p>Course information coming soon.</p>
+        </div>
+      </div>
+    </section>
+    <!-- ===========================
+Register
+=========================== -->
+
+    <section class="register" id="register">
+      <div class="register-left">
+        <span class="register-badge"> JOIN NEW DAWN </span>
+
+        <h2>Start Your Journey Today</h2>
+
+        <p>
+          Become part of New Dawn and take the first step toward learning,
+          innovation, entrepreneurship, and new opportunities.
+        </p>
+      </div>
+
+      <div class="register-right">
+        <form id="registerForm">
+          <input type="text" placeholder="Full Name" required />
+
+          <input type="email" placeholder="Email Address" required />
+
+          <input type="tel" placeholder="Phone Number" required />
+
+          <select required>
+            <option selected disabled>Select Course</option>
+
+            <option>UPSC Preparation</option>
+
+            <option>Computer Skills</option>
+
+            <option>English Language</option>
+
+            <option>Entrepreneurship</option>
+          </select>
+
+          <button type="submit">Register Now</button>
+        </form>
+      </div>
+    </section>
+    <section class="numbers">
+      <h2>New Dawn in Numbers</h2>
+
+      <div class="numbers-grid">
+        <div>
+          <h1 id="students">0</h1>
+
+          <p>Students</p>
+        </div>
+
+        <div>
+          <h1 id="teachers">0</h1>
+
+          <p>Instructors</p>
+        </div>
+
+        <div>
+          <h1 id="year">0</h1>
+
+          <p>Founded</p>
+        </div>
+
+        <div>
+          <h1 id="courses">0</h1>
+
+          <p>Platforms</p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
